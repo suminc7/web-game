@@ -11,6 +11,6 @@ function gameFinished(score){
         parent.window.gameFinish(score);
         console.log("gameFinished"+score);
     }else{
-        alert('parent.window.gameFinish 호출: ' + score);
+        alert('점수: ' + score);
     }
 }
